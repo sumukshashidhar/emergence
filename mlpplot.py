@@ -2,7 +2,7 @@ from matplotlib import pyplot as plt
 import pandas as pd
 
 def plot_mpl():
-    plt.style.use('bmh')
+    plt.style.use('seaborn-poster')
     f, (ax1, ax2) = plt.subplots(2, 1)
     df = pd.read_csv('ant_data.csv', header=None)
     ax1.set(title="General Population Growth")
